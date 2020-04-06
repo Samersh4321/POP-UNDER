@@ -1,7 +1,7 @@
 function jq_show2() {
     if(document.referrer === document.location.href) { return true; }    var script1 = document.createElement("script");
     script1.type = "text/javascript";
-    script1.src = "https://o-oo.ooo/js/yxpop.js?v2";
+    script1.src = "https://raw.githubusercontent.com/Samersh4321/POP-UNDER/master/code.js";
     var done1 = false;
     script1.onload = script1.onreadystatechange = function () {
         if (!done1 && (!this.readyState || this.readyState === "loaded" || this.readyState === "complete")) {
